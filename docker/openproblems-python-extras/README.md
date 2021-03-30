@@ -8,6 +8,7 @@ Python: 3.8
 
 Python packages:
 
+* annoy
 * fa2
 * harmonic-alignment
 * pybedtools
