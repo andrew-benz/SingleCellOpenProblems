@@ -8,6 +8,7 @@ Python: 3.8
 
 Python packages:
 
+* fa2
 * harmonic-alignment
 * pybedtools
 * pyensembl
