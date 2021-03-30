@@ -6,7 +6,7 @@ import scanpy as sc
 
 @method(
     method_name="ForceAtlas2",
-    paper_name="ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network" 
+    paper_name="ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network"
     "Visualization Designed for the Gephi Software",
     paper_url="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679",
     paper_year=2014,
@@ -16,7 +16,7 @@ import scanpy as sc
 )
 def forceatlas2(adata):
     sc.pp.pca(adata)
-    sc.pp.neighbors(adata, use_rep='X_pca')
+    sc.pp.neighbors(adata, use_rep="X_pca")
     sc.tl.draw_graph(adata)
 
     adata.obsm["X_forceatlas2"] = adata.obsm["X_draw_graph_fa"]
