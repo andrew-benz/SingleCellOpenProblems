@@ -17,7 +17,7 @@ import scanpy as sc
 )
 def forceatlas2(adata):
     sc.pp.pca(adata)
-    sc.pp.neighbors(adata, use_rep='X_pca')
+    sc.pp.neighbors(adata, use_rep="X_pca")
     sc.tl.draw_graph(adata)
 
     adata.obsm["X_forceatlas2"] = adata.obsm["X_draw_graph_fa"]
