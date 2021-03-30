@@ -1,5 +1,4 @@
 git+https://github.com/KrishnaswamyLab/harmonic-alignment#subdirectory=python
-annoy
 fa2
 magic-impute
 MulticoreTSNE
