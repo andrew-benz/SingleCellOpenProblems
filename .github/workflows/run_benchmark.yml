@@ -66,7 +66,7 @@ jobs:
           RESUME=""
         else
           PROFILE="test,aws"
-          RESUME="-resume"
+          #RESUME="-resume"
         fi
         echo "PROFILE=$PROFILE" >> $GITHUB_ENV
         echo "RESUME=$RESUME" >> $GITHUB_ENV
