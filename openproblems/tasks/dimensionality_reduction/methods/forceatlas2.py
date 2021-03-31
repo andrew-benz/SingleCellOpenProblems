@@ -6,7 +6,7 @@ import scanpy as sc
 
 @method(
     method_name="ForceAtlas2",
-    paper_name="ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network"
+    paper_name="ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network "
     "Visualization Designed for the Gephi Software",
     paper_url="https://journals.plos.org/plosone/article?id=10.1371/"
     "journal.pone.0098679",
